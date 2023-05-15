@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Rubik:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Rubik', sans-serif;
+            background-image: url('../../img/fon01.jpg');
+            padding: 20px 0;
+            box-sizing: border-box;
+        }
+
+        h2 {
+        font-size: calc(16px + 16 * (100vw / 1200));
+        margin: 0;
+        padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            background-color:  rgb(220, 220, 220);
+
+        }
+                
+        .top {
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .line {
+            text-align: center;
+            background-color: yellow;
+            font-size: calc(6px + 16 * (100vw / 1200));
+        }
+
+        .path {
+            display: inline-block;
+        }
+
+        .title {
+            text-align: center;
+            color: red;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .bot {
+        }
+
+        .my-jpg {
+            width: 100%;
+        }
+
+        .nav {
+            display: flex;
+            flex-direction: column;
+            width: 15%;
+            min-width: 150px;
+            background-color: lightgray;
+            margin: 0 auto;
+            text-align: center;
+            justify-content: space-around;
+        }
+
+        ul { 
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav ul li {
+            list-style-type: none;
+            margin: 20px 0;
+            border-bottom:1px solid black;
+
+        }
+
+        .nav li a {
+            padding: 2px;
+            text-decoration: none;
+            color: #404040;
+            font-size: calc(8px + 16 * (100vw / 1960));
+            color: green;
+            transition: background 0.3s ease;
+        }
+
+        .shev {
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .nav li a:hover {
+            background: black; 
+            color: yellow; 
+        }
+
+        .service {           
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            font-size: calc(6px + 16 * (100vw / 1960));
+            margin: 0 auto;
+            text-align: center;
+            justify-content: space-around;
+        }
+
+        .big-photo {
+            width: 100%;
+            object-fit: contain;
+             min-width: 100px;
+        }
+
+        .all-rota {
+            margin-top: 5px;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .bot {
+            font-size: calc(6px + 16 * (100vw / 1200));
+            text-align: center;
+            background-color: yellow;
+        }
+
+        @media (min-width: 50px) and (max-width: 850px) {
+            .my-jpg {
+             display: none;
+            }
+
+           .shev {
+            display: none;
+           }
+          
+           .nav {
+            width: 80%;
+            flex-direction: row;
+           }
+
+           .nav ul li {
+            margin: 0;            
+            display:inline-block;
+            padding-left: 10px;
+            margin-bottom: 5px;
+            border-bottom: 0;
+           }
+           
+           .nav li:first-child {
+            padding-left: 0;
+           }
+        }
+      
